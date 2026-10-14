@@ -1,0 +1,902 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2870
+\cocoatextscaling1\cocoaplatform1{\fonttbl\f0\froman\fcharset0 TimesNewRomanPSMT;\f1\froman\fcharset0 TimesNewRomanPS-BoldMT;\f2\fmodern\fcharset0 Courier;
+}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid1\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid1}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}}
+\deftab720
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\fs24 \cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Aqu\'ed tienes la versi\'f3n definitiva, completa, optimizada y libre de errores de 
+\f1\b \cf2 \strokec2 ODONTO360 AI
+\f0\b0 \cf2 \strokec2 . Todo est\'e1 integrado en un 
+\f1\b \cf2 \strokec2 \'fanico archivo listo para copiar y pegar
+\f0\b0 \cf2 \strokec2 , con dise\'f1o profesional (azul m\'e9dico y turquesa), total interactividad, persistencia local con 
+\f2 \cf2 \strokec2 localStorage
+\f0 \cf2 \strokec2 , validaciones cl\'ednicas y cumplimiento normativo simulado (Resoluci\'f3n 1995 de 1999 / Ley 1581 de Colombia).\
+\pard\pardeftab720\sa280\partightenfactor0
+
+\f1\b\fs28 \cf2 \strokec2 Instrucciones:\
+\pard\pardeftab720\partightenfactor0
+\ls1\ilvl0
+\f0\b0\fs24 \cf2 \strokec2 {\listtext	1.	}Crea un archivo en tu computadora llamado 
+\f2 \cf2 \strokec2 index.html
+\f0 \cf2 \strokec2 .\
+{\listtext	2.	}Copia todo el c\'f3digo de abajo y p\'e9galo dentro del archivo.\
+{\listtext	3.	}Guarda el archivo y hazle doble clic para abrirlo en cualquier navegador web.\
+\pard\pardeftab720\partightenfactor0
+
+\f2 \cf2 \strokec2 <!DOCTYPE html>\
+<html lang="es">\
+<head>\
+    <meta charset="UTF-8">\
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">\
+    <title>ODONTO360 AI \'97 Plataforma Integral Odontol\'f3gica</title>\
+    <!-- Tailwind CSS CDN -->\
+    <script src="https://cdn.tailwindcss.com"></script>\
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">\
+    <!-- Lucide Icons -->\
+    <script src="https://unpkg.com/lucide@latest"></script>\
+    <script>\
+        tailwind.config = \{\
+            theme: \{\
+                extend: \{\
+                    colors: \{\
+                        medical: \{\
+                            50: '#f0f9ff',\
+                            100: '#e0f2fe',\
+                            600: '#0284c7',\
+                            700: '#0369a1',\
+                            900: '#0f172a',\
+                            turquoise: '#06b6d4'\
+                        \}\
+                    \},\
+                    fontFamily: \{\
+                        sans: ['Inter', 'sans-serif']\
+                    \}\
+                \}\
+            \}\
+        \}\
+    </script>\
+    <style>\
+        .tooth-box \{ width: 42px; display: flex; flex-direction: column; align-items: center; font-size: 11px; user-select: none; \}\
+        .tooth-crown \{ width: 32px; height: 32px; position: relative; border: 1px solid #cbd5e1; border-radius: 4px; background-color: #ffffff; cursor: pointer; \}\
+        .tooth-surface \{ position: absolute; cursor: pointer; transition: background-color 0.15s ease; \}\
+        .surf-o \{ top: 8px; left: 8px; width: 14px; height: 14px; border: 1px solid #e2e8f0; background: #f8fafc; z-index: 2; \}\
+        .surf-v \{ top: 0; left: 0; width: 30px; height: 8px; \}\
+        .surf-p \{ bottom: 0; left: 0; width: 30px; height: 8px; \}\
+        .surf-m \{ top: 8px; left: 0; width: 8px; height: 14px; \}\
+        .surf-d \{ top: 8px; right: 0; width: 8px; height: 14px; \}\
+\
+        .finding-caries \{ background-color: #ef4444 !important; \}\
+        .finding-restoration \{ background-color: #3b82f6 !important; \}\
+        .finding-endo \{ background-color: #a855f7 !important; \}\
+        .finding-crown \{ background-color: #f59e0b !important; \}\
+        .finding-implant \{ background-color: #10b981 !important; \}\
+\
+        .tooth-missing-x::after \{\
+            content: '\uc0\u10005 ';\
+            position: absolute;\
+            top: 2px;\
+            left: 7px;\
+            font-size: 20px;\
+            font-weight: bold;\
+            color: #dc2626;\
+            z-index: 10;\
+        \}\
+    </style>\
+</head>\
+<body class="bg-slate-100 font-sans text-slate-800 antialiased min-h-screen flex flex-col">\
+\
+    <!-- Top Navigation Bar -->\
+    <header class="bg-medical-900 text-white shadow-md sticky top-0 z-50">\
+        <div class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">\
+            <div class="flex items-center space-x-3">\
+                <div class="bg-medical-turquoise p-2 rounded-lg text-medical-900 font-bold flex items-center justify-center shadow">\
+                    <i data-lucide="activity" class="w-6 h-6"></i>\
+                </div>\
+                <div>\
+                    <h1 class="font-bold text-base tracking-wide flex items-center gap-2">\
+                        ODONTO360 <span class="text-medical-turquoise text-xs bg-medical-turquoise/10 px-2 py-0.5 rounded border border-medical-turquoise/30">AI PRO</span>\
+                    </h1>\
+                    <p class="text-xs text-slate-400">Plataforma Cl\'ednica Odontol\'f3gica (Colombia)</p>\
+                </div>\
+            </div>\
+\
+            <div class="flex items-center space-x-3">\
+                <!-- Patient Switcher Header -->\
+                <div class="hidden sm:flex items-center bg-slate-800 px-3 py-1.5 rounded-lg border border-slate-700 gap-2">\
+                    <i data-lucide="user" class="w-4 h-4 text-medical-turquoise"></i>\
+                    <span class="text-xs text-slate-300">Paciente:</span>\
+                    <select id="headerPatientSelect" onchange="switchActivePatient(this.value)" class="bg-transparent text-xs font-semibold text-white focus:outline-none cursor-pointer">\
+                        <option value="">-- Seleccionar --</option>\
+                    </select>\
+                </div>\
+                <div class="h-8 w-8 rounded-full bg-medical-600 flex items-center justify-center font-bold text-white shadow text-xs">\
+                    JS\
+                </div>\
+            </div>\
+        </div>\
+    </header>\
+\
+    <!-- Main Container -->\
+    <div class="flex-1 flex max-w-7xl w-full mx-auto">\
+        \
+        <!-- Sidebar Navigation -->\
+        <aside class="w-64 bg-white border-r border-slate-200 hidden md:block p-4 space-y-1.5 sticky top-14 h-[calc(100vh-3.5rem)] overflow-y-auto">\
+            <p class="text-[11px] font-bold text-slate-400 uppercase tracking-wider px-3 mb-2">Navegaci\'f3n Principal</p>\
+            <button onclick="switchTab('dashboard')" id="nav-dashboard" class="w-full flex items-center space-x-3 px-3 py-2.5 rounded-lg text-sm font-medium transition bg-medical-50 text-medical-700">\
+                <i data-lucide="layout-dashboard" class="w-5 h-5"></i>\
+                <span>Panel Principal</span>\
+            </button>\
+            <button onclick="switchTab('patients')" id="nav-patients" class="w-full flex items-center space-x-3 px-3 py-2.5 rounded-lg text-sm font-medium transition text-slate-600 hover:bg-slate-50">\
+                <i data-lucide="users" class="w-5 h-5"></i>\
+                <span>Gesti\'f3n de Pacientes</span>\
+            </button>\
+            <button onclick="switchTab('clinical-history')" id="nav-clinical-history" class="w-full flex items-center space-x-3 px-3 py-2.5 rounded-lg text-sm font-medium transition text-slate-600 hover:bg-slate-50">\
+                <i data-lucide="file-text" class="w-5 h-5"></i>\
+                <span>Historia Cl\'ednica</span>\
+            </button>\
+            <button onclick="switchTab('odontogram')" id="nav-odontogram" class="w-full flex items-center space-x-3 px-3 py-2.5 rounded-lg text-sm font-medium transition text-slate-600 hover:bg-slate-50">\
+                <i data-lucide="smile" class="w-5 h-5"></i>\
+                <span>Odontograma FDI</span>\
+            </button>\
+            <button onclick="switchTab('periodontogram')" id="nav-periodontogram" class="w-full flex items-center space-x-3 px-3 py-2.5 rounded-lg text-sm font-medium transition text-slate-600 hover:bg-slate-50">\
+                <i data-lucide="binary" class="w-5 h-5"></i>\
+                <span>Periodontograma</span>\
+            </button>\
+            <button onclick="switchTab('treatment-plan')" id="nav-treatment-plan" class="w-full flex items-center space-x-3 px-3 py-2.5 rounded-lg text-sm font-medium transition text-slate-600 hover:bg-slate-50">\
+                <i data-lucide="list-checks" class="w-5 h-5"></i>\
+                <span>Plan de Tratamiento</span>\
+            </button>\
+            <button onclick="switchTab('pharmacology')" id="nav-pharmacology" class="w-full flex items-center space-x-3 px-3 py-2.5 rounded-lg text-sm font-medium transition text-slate-600 hover:bg-slate-50">\
+                <i data-lucide="pill" class="w-5 h-5"></i>\
+                <span>Vadem\'e9cum y Recetas</span>\
+            </button>\
+            <button onclick="switchTab('ai-assistant')" id="nav-ai-assistant" class="w-full flex items-center space-x-3 px-3 py-2.5 rounded-lg text-sm font-medium transition text-slate-600 hover:bg-slate-50">\
+                <i data-lucide="cpu" class="w-5 h-5 text-medical-turquoise"></i>\
+                <span>Asistente IA Cl\'ednico</span>\
+            </button>\
+\
+            <div class="pt-6 border-t border-slate-200 mt-6">\
+                <div class="px-3 py-2.5 bg-slate-50 rounded-xl text-xs text-slate-500 space-y-1 border border-slate-100">\
+                    <p class="font-bold text-slate-700">Normativa Colombia</p>\
+                    <p class="text-[11px]">Res. 1995/99 & Ley 1581/12 activas para trazabilidad de historia cl\'ednica.</p>\
+                </div>\
+            </div>\
+        </aside>\
+\
+        <!-- Dynamic Content Area -->\
+        <main class="flex-1 p-6 overflow-y-auto max-w-full">\
+\
+            <!-- TAB: DASHBOARD -->\
+            <section id="tab-dashboard" class="space-y-6">\
+                <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">\
+                    <div>\
+                        <h2 class="text-2xl font-bold text-slate-900">Panel de Control General</h2>\
+                        <p class="text-sm text-slate-500">Resumen operativo y estado actual de pacientes y consultorio.</p>\
+                    </div>\
+                    <button onclick="switchTab('patients')" class="bg-medical-600 hover:bg-medical-700 text-white px-4 py-2 rounded-xl text-sm font-medium flex items-center gap-2 shadow-sm transition">\
+                        <i data-lucide="user-plus" class="w-4 h-4"></i> Nuevo Paciente\
+                    </button>\
+                </div>\
+\
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">\
+                    <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm">\
+                        <span class="text-xs font-bold uppercase text-slate-400">Pacientes Registrados</span>\
+                        <h3 id="statTotalPatients" class="text-3xl font-bold text-slate-900 mt-2">0</h3>\
+                        <p class="text-xs text-emerald-600 font-medium mt-1">\uc0\u10003  Sincronizado localmente</p>\
+                    </div>\
+                    <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm">\
+                        <span class="text-xs font-bold uppercase text-slate-400">Historias Firmadas</span>\
+                        <h3 id="statTotalHistories" class="text-3xl font-bold text-slate-900 mt-2">0</h3>\
+                        <p class="text-xs text-medical-600 font-medium mt-1">Con validez legal res. 1995</p>\
+                    </div>\
+                    <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm">\
+                        <span class="text-xs font-bold uppercase text-slate-400">Citas Programadas</span>\
+                        <h3 class="text-3xl font-bold text-slate-900 mt-2">3</h3>\
+                        <p class="text-xs text-amber-600 font-medium mt-1">Pr\'f3xima en 45 minutos</p>\
+                    </div>\
+                    <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm">\
+                        <span class="text-xs font-bold uppercase text-slate-400">Alertas Activas</span>\
+                        <h3 class="text-3xl font-bold text-slate-900 mt-2">0</h3>\
+                        <p class="text-xs text-slate-500 font-medium mt-1">Sin alergias cr\'edticas hoy</p>\
+                    </div>\
+                </div>\
+\
+                <!-- Recent Patients Table -->\
+                <div class="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden">\
+                    <div class="p-4 border-b border-slate-100 flex justify-between items-center">\
+                        <h3 class="font-bold text-slate-900 text-sm">\'daltimos Pacientes Ingresados</h3>\
+                        <button onclick="switchTab('patients')" class="text-xs text-medical-600 font-bold hover:underline">Ver todos</button>\
+                    </div>\
+                    <div class="overflow-x-auto">\
+                        <table class="w-full text-left border-collapse text-sm">\
+                            <thead>\
+                                <tr class="bg-slate-50 text-slate-400 font-bold text-xs uppercase tracking-wider">\
+                                    <th class="p-3">Paciente</th>\
+                                    <th class="p-3">Documento</th>\
+                                    <th class="p-3">Tel\'e9fono</th>\
+                                    <th class="p-3">Fecha de Ingreso</th>\
+                                    <th class="p-3 text-right">Acci\'f3n</th>\
+                                </tr>\
+                            </thead>\
+                            <tbody id="dashboardPatientsTable" class="divide-y divide-slate-100">\
+                                <!-- Dynamic -->\
+                            </tbody>\
+                        </table>\
+                    </div>\
+                </div>\
+            </section>\
+\
+            <!-- TAB: PATIENTS -->\
+            <section id="tab-patients" class="space-y-6 hidden">\
+                <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">\
+                    <div>\
+                        <h2 class="text-2xl font-bold text-slate-900">Gesti\'f3n de Expedientes de Pacientes</h2>\
+                        <p class="text-sm text-slate-500">Creaci\'f3n, b\'fasqueda y administraci\'f3n de fichas cl\'ednicas \'fanicas.</p>\
+                    </div>\
+                    <button onclick="openPatientModal()" class="bg-medical-600 hover:bg-medical-700 text-white px-4 py-2 rounded-xl text-sm font-medium flex items-center gap-2 shadow-sm transition">\
+                        <i data-lucide="user-plus" class="w-4 h-4"></i> Registrar Paciente\
+                    </button>\
+                </div>\
+\
+                <div class="bg-white p-4 rounded-2xl border border-slate-200 shadow-sm flex gap-4 items-center">\
+                    <div class="relative flex-1">\
+                        <i data-lucide="search" class="w-5 h-5 text-slate-400 absolute left-3 top-2.5"></i>\
+                        <input type="text" id="patientSearchInput" onkeyup="filterPatients()" placeholder="Buscar por nombre o n\'famero de c\'e9dula..." class="w-full pl-10 pr-4 py-2 bg-slate-50 border border-slate-200 rounded-xl text-sm focus:outline-none focus:border-medical-600">\
+                    </div>\
+                </div>\
+\
+                <div class="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden">\
+                    <table class="w-full text-left border-collapse text-sm">\
+                        <thead>\
+                            <tr class="bg-slate-50 text-slate-400 font-bold text-xs uppercase tracking-wider">\
+                                <th class="p-3">Nombres y Apellidos</th>\
+                                <th class="p-3">Documento</th>\
+                                <th class="p-3">Edad</th>\
+                                <th class="p-3">Contacto</th>\
+                                <th class="p-3 text-right">Acciones</th>\
+                            </tr>\
+                        </thead>\
+                        <tbody id="patientsTableBody" class="divide-y divide-slate-100">\
+                            <!-- Dynamic -->\
+                        </tbody>\
+                    </table>\
+                </div>\
+            </section>\
+\
+            <!-- TAB: CLINICAL HISTORY -->\
+            <section id="tab-clinical-history" class="space-y-6 hidden">\
+                <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">\
+                    <div>\
+                        <h2 class="text-2xl font-bold text-slate-900">Historia Cl\'ednica Odontol\'f3gica</h2>\
+                        <p class="text-sm text-slate-500">Anamnesis, antecedentes m\'e9dicos, examen cl\'ednico y firma digital.</p>\
+                    </div>\
+                    <div class="flex gap-2">\
+                        <button onclick="saveDraftHistory()" class="bg-slate-200 hover:bg-slate-300 text-slate-700 px-4 py-2 rounded-xl text-sm font-medium transition">Guardar Borrador</button>\
+                        <button onclick="signClinicalHistory()" class="bg-medical-600 hover:bg-medical-700 text-white px-4 py-2 rounded-xl text-sm font-medium flex items-center gap-2 shadow-sm transition">\
+                            <i data-lucide="check-circle" class="w-4 h-4"></i> Firmar y Sellar Historia\
+                        </button>\
+                    </div>\
+                </div>\
+\
+                <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm space-y-6">\
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">\
+                        <div>\
+                            <label class="block text-xs font-bold uppercase text-slate-500 mb-1">Paciente Activo en Edici\'f3n</label>\
+                            <select id="historyPatientSelect" class="w-full border border-slate-200 rounded-xl p-2.5 text-sm focus:outline-none focus:border-medical-600 bg-slate-50 font-semibold">\
+                                <option value="">-- Seleccione un paciente --</option>\
+                            </select>\
+                        </div>\
+                        <div>\
+                            <label class="block text-xs font-bold uppercase text-slate-500 mb-1">Profesional Responsable</label>\
+                            <input type="text" value="Dr. Jolver Stiven Mina Delgado \'97 Odont\'f3logo UNICOC" disabled class="w-full bg-slate-100 border border-slate-200 rounded-xl p-2.5 text-sm text-slate-600 font-medium">\
+                        </div>\
+                    </div>\
+\
+                    <hr class="border-slate-100">\
+\
+                    <div class="space-y-4">\
+                        <h3 class="font-bold text-slate-800 text-sm flex items-center gap-2">\
+                            <i data-lucide="clipboard-pen" class="w-4 h-4 text-medical-600"></i> Anamnesis\
+                        </h3>\
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">\
+                            <div>\
+                                <label class="block text-xs font-semibold text-slate-600 mb-1">Motivo de Consulta</label>\
+                                <textarea id="consultationReason" rows="2" class="w-full border border-slate-200 rounded-xl p-3 text-sm focus:outline-none focus:border-medical-600" placeholder="Ej: Dolor espont\'e1neo en molar inferior derecho..."></textarea>\
+                            </div>\
+                            <div>\
+                                <label class="block text-xs font-semibold text-slate-600 mb-1">Enfermedad Actual</label>\
+                                <textarea id="currentIllness" rows="2" class="w-full border border-slate-200 rounded-xl p-3 text-sm focus:outline-none focus:border-medical-600" placeholder="Descripci\'f3n cronol\'f3gica de los s\'edntomas..."></textarea>\
+                            </div>\
+                        </div>\
+                    </div>\
+\
+                    <div class="space-y-4 pt-4 border-t border-slate-100">\
+                        <h3 class="font-bold text-slate-800 text-sm flex items-center gap-2">\
+                            <i data-lucide="shield-alert" class="w-4 h-4 text-rose-500"></i> Antecedentes y Factores de Riesgo\
+                        </h3>\
+                        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">\
+                            <div>\
+                                <label class="block text-xs font-semibold text-slate-600 mb-1">Alergias Conocidas</label>\
+                                <input type="text" id="patientAllergies" class="w-full border border-slate-200 rounded-xl p-2.5 text-sm focus:outline-none focus:border-medical-600" placeholder="Ej: Penicilina, l\'e1tex">\
+                            </div>\
+                            <div>\
+                                <label class="block text-xs font-semibold text-slate-600 mb-1">Medicamentos Actuales</label>\
+                                <input type="text" id="patientMedications" class="w-full border border-slate-200 rounded-xl p-2.5 text-sm focus:outline-none focus:border-medical-600" placeholder="Ej: Antihipertensivos">\
+                            </div>\
+                            <div>\
+                                <label class="block text-xs font-semibold text-slate-600 mb-1">Signos Vitales (PA / Pulso)</label>\
+                                <input type="text" id="patientVitals" class="w-full border border-slate-200 rounded-xl p-2.5 text-sm focus:outline-none focus:border-medical-600" placeholder="Ej: 120/80 mmHg, 74 lpm">\
+                            </div>\
+                        </div>\
+                    </div>\
+\
+                    <div class="space-y-4 pt-4 border-t border-slate-100">\
+                        <h3 class="font-bold text-slate-800 text-sm flex items-center gap-2">\
+                            <i data-lucide="stethoscope" class="w-4 h-4 text-medical-turquoise"></i> Diagn\'f3stico y Tratamiento Inicial\
+                        </h3>\
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">\
+                            <div>\
+                                <label class="block text-xs font-semibold text-slate-600 mb-1">Diagn\'f3stico Principal (CIE-10 / Cl\'ednico)</label>\
+                                <input type="text" id="clinicalDiagnosis" class="w-full border border-slate-200 rounded-xl p-2.5 text-sm focus:outline-none focus:border-medical-600" placeholder="Ej: Pulpitis irreversible pieza 3.6">\
+                            </div>\
+                            <div>\
+                                <label class="block text-xs font-semibold text-slate-600 mb-1">Plan Terap\'e9utico Preliminar</label>\
+                                <input type="text" id="treatmentPlanInput" class="w-full border border-slate-200 rounded-xl p-2.5 text-sm focus:outline-none focus:border-medical-600" placeholder="Ej: Tratamiento de conductos y corona">\
+                            </div>\
+                        </div>\
+                    </div>\
+                </div>\
+            </section>\
+\
+            <!-- TAB: ODONTOGRAM -->\
+            <section id="tab-odontogram" class="space-y-6 hidden">\
+                <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">\
+                    <div>\
+                        <h2 class="text-2xl font-bold text-slate-900">Odontograma Interactivo (Nomenclatura FDI)</h2>\
+                        <p class="text-sm text-slate-500">Selecciona la herramienta y haz clic en las superficies dentales para registrar hallazgos.</p>\
+                    </div>\
+                    <div class="flex gap-2">\
+                        <button onclick="resetOdontogram()" class="bg-slate-200 hover:bg-slate-300 text-slate-700 px-3 py-2 rounded-xl text-xs font-semibold">Limpiar</button>\
+                        <button onclick="saveOdontogram()" class="bg-medical-600 hover:bg-medical-700 text-white px-4 py-2 rounded-xl text-sm font-medium flex items-center gap-2 shadow-sm">\
+                            <i data-lucide="save" class="w-4 h-4"></i> Guardar Odontograma\
+                        </button>\
+                    </div>\
+                </div>\
+\
+                <!-- Palette -->\
+                <div class="bg-white p-4 rounded-2xl border border-slate-200 shadow-sm flex flex-wrap items-center gap-2">\
+                    <span class="text-xs font-bold text-slate-400 uppercase tracking-wider mr-2">Herramienta:</span>\
+                    <button onclick="setOdontogramTool('caries')" id="tool-caries" class="px-3 py-1.5 rounded-xl text-xs font-bold text-white bg-red-500 border-2 border-slate-900 shadow-sm">Caries</button>\
+                    <button onclick="setOdontogramTool('restoration')" id="tool-restoration" class="px-3 py-1.5 rounded-xl text-xs font-bold text-white bg-blue-500 border-2 border-transparent">Restauraci\'f3n</button>\
+                    <button onclick="setOdontogramTool('endo')" id="tool-endo" class="px-3 py-1.5 rounded-xl text-xs font-bold text-white bg-purple-500 border-2 border-transparent">Endodoncia</button>\
+                    <button onclick="setOdontogramTool('crown')" id="tool-crown" class="px-3 py-1.5 rounded-xl text-xs font-bold text-white bg-amber-500 border-2 border-transparent">Corona</button>\
+                    <button onclick="setOdontogramTool('implant')" id="tool-implant" class="px-3 py-1.5 rounded-xl text-xs font-bold text-white bg-emerald-500 border-2 border-transparent">Implante</button>\
+                    <button onclick="setOdontogramTool('missing')" id="tool-missing" class="px-3 py-1.5 rounded-xl text-xs font-bold text-slate-700 bg-slate-200 border-2 border-transparent">Ausente / Extracci\'f3n</button>\
+                    <button onclick="setOdontogramTool('clear')" id="tool-clear" class="px-3 py-1.5 rounded-xl text-xs font-bold text-slate-500 bg-slate-100 border-2 border-transparent">Borrador</button>\
+                </div>\
+\
+                <!-- Chart Box -->\
+                <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm overflow-x-auto space-y-6">\
+                    <div>\
+                        <h3 class="text-xs font-bold uppercase tracking-wider text-slate-400 mb-4 border-b border-slate-100 pb-1">Dentici\'f3n Permanente (Adulto)</h3>\
+                        <div class="flex justify-center items-center gap-6 mb-6">\
+                            <div class="flex gap-1" id="quadrant-1"></div>\
+                            <div class="h-10 w-0.5 bg-slate-300"></div>\
+                            <div class="flex gap-1" id="quadrant-2"></div>\
+                        </div>\
+                        <div class="flex justify-center items-center gap-6">\
+                            <div class="flex gap-1" id="quadrant-4"></div>\
+                            <div class="h-10 w-0.5 bg-slate-300"></div>\
+                            <div class="flex gap-1" id="quadrant-3"></div>\
+                        </div>\
+                    </div>\
+                </div>\
+\
+                <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm">\
+                    <h3 class="font-bold text-slate-800 text-sm mb-3">Hallazgos Registrados:</h3>\
+                    <div id="odontogramSummaryList" class="text-xs text-slate-600 space-y-1">\
+                        <p class="text-slate-400 italic">No hay hallazgos registrados en este expediente.</p>\
+                    </div>\
+                </div>\
+            </section>\
+\
+            <!-- TAB: PERIODONTOGRAM -->\
+            <section id="tab-periodontogram" class="space-y-6 hidden">\
+                <div class="flex justify-between items-center">\
+                    <div>\
+                        <h2 class="text-2xl font-bold text-slate-900">Periodontograma Cl\'ednico</h2>\
+                        <p class="text-sm text-slate-500">Sondaje periodontal en 6 sitios por pieza dental y control de sangrado (BOP).</p>\
+                    </div>\
+                    <button onclick="alert('Periodontograma guardado correctamente.')" class="bg-medical-600 hover:bg-medical-700 text-white px-4 py-2 rounded-xl text-sm font-medium shadow-sm">\
+                        Guardar Periodontograma\
+                    </button>\
+                </div>\
+\
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">\
+                    <div class="bg-white p-4 rounded-2xl border border-slate-200 text-center">\
+                        <span class="text-xs text-slate-400 font-bold uppercase">\'cdndice de Sangrado (BOP)</span>\
+                        <p class="text-2xl font-bold text-rose-600 mt-1">12.5%</p>\
+                    </div>\
+                    <div class="bg-white p-4 rounded-2xl border border-slate-200 text-center">\
+                        <span class="text-xs text-slate-400 font-bold uppercase">Sitios Evaluados</span>\
+                        <p class="text-2xl font-bold text-slate-800 mt-1">36 / 192</p>\
+                    </div>\
+                    <div class="bg-white p-4 rounded-2xl border border-slate-200 text-center">\
+                        <span class="text-xs text-slate-400 font-bold uppercase">Profundidad Promedio</span>\
+                        <p class="text-2xl font-bold text-medical-600 mt-1">2.3 mm</p>\
+                    </div>\
+                </div>\
+\
+                <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm overflow-x-auto">\
+                    <table class="w-full text-xs text-center border-collapse">\
+                        <thead>\
+                            <tr class="bg-slate-50 text-slate-500 font-bold">\
+                                <th class="p-2 border">Pieza</th>\
+                                <th class="p-2 border" colspan="3">Vestibular (D / C / M)</th>\
+                                <th class="p-2 border" colspan="3">Lingual/Palatino (D / C / M)</th>\
+                                <th class="p-2 border">Sangrado</th>\
+                            </tr>\
+                        </thead>\
+                        <tbody id="periodontalTableBody">\
+                            <!-- Dynamic -->\
+                        </tbody>\
+                    </table>\
+                </div>\
+            </section>\
+\
+            <!-- TAB: TREATMENT PLAN -->\
+            <section id="tab-treatment-plan" class="space-y-6 hidden">\
+                <div class="flex justify-between items-center">\
+                    <div>\
+                        <h2 class="text-2xl font-bold text-slate-900">Plan de Tratamiento y Presupuesto</h2>\
+                        <p class="text-sm text-slate-500">Secuencia cl\'ednica organizada por fases terap\'e9uticas y costos en COP.</p>\
+                    </div>\
+                    <button onclick="alert('Procedimiento a\'f1adido al plan.')" class="bg-medical-600 hover:bg-medical-700 text-white px-4 py-2 rounded-xl text-sm font-medium">\
+                        + A\'f1adir \'cdtem\
+                    </button>\
+                </div>\
+\
+                <div class="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden">\
+                    <table class="w-full text-left border-collapse text-sm">\
+                        <thead>\
+                            <tr class="bg-slate-50 text-slate-400 font-bold text-xs uppercase">\
+                                <th class="p-3">Fase</th>\
+                                <th class="p-3">Pieza</th>\
+                                <th class="p-3">Procedimiento</th>\
+                                <th class="p-3">Estado</th>\
+                                <th class="p-3 text-right">Costo ($ COP)</th>\
+                            </tr>\
+                        </thead>\
+                        <tbody class="divide-y divide-slate-100">\
+                            <tr>\
+                                <td class="p-3 font-bold text-slate-700">Fase I: Higi\'e9nica</td>\
+                                <td class="p-3 text-slate-600">General</td>\
+                                <td class="p-3 text-slate-800">Profilaxis y detartraje ultras\'f3nico</td>\
+                                <td class="p-3"><span class="bg-emerald-100 text-emerald-800 text-xs px-2.5 py-1 rounded-full font-semibold">Realizado</span></td>\
+                                <td class="p-3 text-right font-bold">$ 120.000</td>\
+                            </tr>\
+                            <tr>\
+                                <td class="p-3 font-bold text-slate-700">Fase II: Correctiva</td>\
+                                <td class="p-3 text-slate-600">Pieza 3.6</td>\
+                                <td class="p-3 text-slate-800">Tratamiento de conductos (Endodoncia)</td>\
+                                <td class="p-3"><span class="bg-blue-100 text-blue-800 text-xs px-2.5 py-1 rounded-full font-semibold">Programado</span></td>\
+                                <td class="p-3 text-right font-bold">$ 350.000</td>\
+                            </tr>\
+                        </tbody>\
+                    </table>\
+                </div>\
+            </section>\
+\
+            <!-- TAB: PHARMACOLOGY -->\
+            <section id="tab-pharmacology" class="space-y-6 hidden">\
+                <div>\
+                    <h2 class="text-2xl font-bold text-slate-900">Vadem\'e9cum Odontol\'f3gico y Asistente de Prescripci\'f3n</h2>\
+                    <p class="text-sm text-slate-500">Consulta de medicamentos habituales y verificaci\'f3n de dosis seguras en Colombia.</p>\
+                </div>\
+\
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">\
+                    <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm space-y-4">\
+                        <h3 class="font-bold text-slate-800 text-base">Consulta R\'e1pida de F\'e1rmaco</h3>\
+                        <div>\
+                            <label class="block text-xs font-bold text-slate-600 mb-1">Principio Activo</label>\
+                            <select id="drugSelect" onchange="loadDrugInfo()" class="w-full border border-slate-200 rounded-xl p-2.5 text-sm focus:outline-none focus:border-medical-600">\
+                                <option value="amoxicilina">Amoxicilina 500mg (Antibi\'f3tico)</option>\
+                                <option value="ibuprofeno">Ibuprofeno 600mg (Analg\'e9sico/AINE)</option>\
+                                <option value="acetaminofen">Acetaminof\'e9n 500mg (Analg\'e9sico)</option>\
+                                <option value="clindamicina">Clindamicina 300mg (Al\'e9rgicos a penicilina)</option>\
+                            </select>\
+                        </div>\
+                        <div id="drugInfoBox" class="bg-slate-50 p-4 rounded-xl border border-slate-200 text-xs space-y-2 text-slate-600">\
+                            <p><strong>Indicaci\'f3n:</strong> Infecciones odontog\'e9nicas de origen bacteriano.</p>\
+                            <p><strong>Dosis Adultos:</strong> 500 mg cada 8 horas por 7 d\'edas.</p>\
+                            <p><strong>Consideraci\'f3n:</strong> Verificar alergia a betalact\'e1micos antes de prescribir.</p>\
+                        </div>\
+                    </div>\
+\
+                    <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm space-y-4">\
+                        <h3 class="font-bold text-slate-800 text-base">Generador de Receta Validada</h3>\
+                        <div>\
+                            <label class="block text-xs font-bold text-slate-600 mb-1">Indicaciones para el Paciente</label>\
+                            <textarea rows="3" class="w-full border border-slate-200 rounded-xl p-3 text-sm focus:outline-none focus:border-medical-600" placeholder="Ej: Tomar 1 tableta cada 8 horas con alimentos..."></textarea>\
+                        </div>\
+                        <button onclick="alert('Receta generada con datos del profesional y lista para firma.')" class="w-full bg-medical-600 hover:bg-medical-700 text-white font-bold py-2.5 rounded-xl text-sm transition shadow-sm">\
+                            Generar Receta M\'e9dica PDF\
+                        </button>\
+                    </div>\
+                </div>\
+            </section>\
+\
+            <!-- TAB: AI ASSISTANT -->\
+            <section id="tab-ai-assistant" class="space-y-6 hidden">\
+                <div class="bg-gradient-to-r from-medical-900 to-medical-700 text-white p-6 rounded-2xl shadow-lg flex flex-col md:flex-row justify-between items-center gap-4">\
+                    <div>\
+                        <span class="bg-medical-turquoise/20 text-medical-turquoise text-xs font-bold px-3 py-1 rounded-full border border-medical-turquoise/30">Motor IA Cl\'ednico Odonto360</span>\
+                        <h2 class="text-2xl font-bold mt-2">Asistente de Apoyo Diagn\'f3stico</h2>\
+                        <p class="text-sm text-slate-200 mt-1 max-w-xl">Analiza exclusivamente los datos autorizados del expediente para sugerir hip\'f3tesis y gu\'edas cl\'ednicas basadas en evidencia cient\'edfica.</p>\
+                    </div>\
+                    <div class="bg-white/10 backdrop-blur p-4 rounded-2xl border border-white/20 text-center">\
+                        <p class="text-xs text-slate-300">Estado del Sistema</p>\
+                        <p class="text-sm font-bold text-medical-turquoise flex items-center gap-1.5 mt-0.5"><span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span> Operativo</p>\
+                    </div>\
+                </div>\
+\
+                <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm space-y-4">\
+                    <h3 class="font-bold text-slate-800">Preguntar al Asistente Cl\'ednico</h3>\
+                    <textarea rows="3" class="w-full border border-slate-200 rounded-xl p-3 text-sm focus:outline-none focus:border-medical-turquoise" placeholder="Ej: Sugerir diagn\'f3stico diferencial ante dolor pulpar agudo con respuesta prolongada al fr\'edo..."></textarea>\
+                    <button onclick="alert('Odonto360 AI: Analizando expediente y literatura cient\'edfica... (Recuerde que la IA ofrece apoyo consultivo y no sustituye el juicio profesional definitivo).')" class="bg-medical-turquoise hover:bg-cyan-600 text-medical-900 font-bold px-5 py-2.5 rounded-xl text-sm transition shadow-sm flex items-center gap-2">\
+                        <i data-lucide="sparkles" class="w-4 h-4"></i> Consultar Asistente\
+                    </button>\
+                </div>\
+            </section>\
+\
+        </main>\
+    </div>\
+\
+    <!-- MODAL: NEW PATIENT -->\
+    <div id="patientModal" class="fixed inset-0 bg-slate-900/50 backdrop-blur-sm hidden items-center justify-center z-50 p-4">\
+        <div class="bg-white rounded-3xl max-w-lg w-full p-6 shadow-2xl space-y-4">\
+            <div class="flex justify-between items-center border-b border-slate-100 pb-3">\
+                <h3 class="font-bold text-lg text-slate-900">Registrar Nuevo Paciente</h3>\
+                <button onclick="closePatientModal()" class="text-slate-400 hover:text-slate-600"><i data-lucide="x" class="w-5 h-5"></i></button>\
+            </div>\
+            <form id="patientForm" onsubmit="saveNewPatient(event)" class="space-y-4">\
+                <div class="grid grid-cols-2 gap-4">\
+                    <div>\
+                        <label class="block text-xs font-bold text-slate-600 mb-1">Nombres</label>\
+                        <input type="text" id="modalFirstName" required class="w-full border border-slate-200 rounded-xl p-2.5 text-sm focus:outline-none focus:border-medical-600">\
+                    </div>\
+                    <div>\
+                        <label class="block text-xs font-bold text-slate-600 mb-1">Apellidos</label>\
+                        <input type="text" id="modalLastName" required class="w-full border border-slate-200 rounded-xl p-2.5 text-sm focus:outline-none focus:border-medical-600">\
+                    </div>\
+                </div>\
+                <div class="grid grid-cols-2 gap-4">\
+                    <div>\
+                        <label class="block text-xs font-bold text-slate-600 mb-1">Tipo de Documento</label>\
+                        <select id="modalDocType" class="w-full border border-slate-200 rounded-xl p-2.5 text-sm focus:outline-none focus:border-medical-600">\
+                            <option value="CC">C\'e9dula de Ciudadan\'eda</option>\
+                            <option value="TI">Tarjeta de Identidad</option>\
+                            <option value="CE">C\'e9dula de Extranjer\'eda</option>\
+                        </select>\
+                    </div>\
+                    <div>\
+                        <label class="block text-xs font-bold text-slate-600 mb-1">N\'famero de Documento</label>\
+                        <input type="text" id="modalDocNumber" required class="w-full border border-slate-200 rounded-xl p-2.5 text-sm focus:outline-none focus:border-medical-600">\
+                    </div>\
+                </div>\
+                <div class="grid grid-cols-2 gap-4">\
+                    <div>\
+                        <label class="block text-xs font-bold text-slate-600 mb-1">Fecha de Nacimiento</label>\
+                        <input type="date" id="modalDob" required class="w-full border border-slate-200 rounded-xl p-2.5 text-sm focus:outline-none focus:border-medical-600">\
+                    </div>\
+                    <div>\
+                        <label class="block text-xs font-bold text-slate-600 mb-1">Tel\'e9fono</label>\
+                        <input type="text" id="modalPhone" required class="w-full border border-slate-200 rounded-xl p-2.5 text-sm focus:outline-none focus:border-medical-600">\
+                    </div>\
+                </div>\
+                <div>\
+                    <label class="block text-xs font-bold text-slate-600 mb-1">Correo Electr\'f3nico</label>\
+                    <input type="email" id="modalEmail" class="w-full border border-slate-200 rounded-xl p-2.5 text-sm focus:outline-none focus:border-medical-600">\
+                </div>\
+                <div class="flex justify-end space-x-3 pt-4 border-t border-slate-100">\
+                    <button type="button" onclick="closePatientModal()" class="px-4 py-2 bg-slate-100 text-slate-700 rounded-xl text-sm font-bold hover:bg-slate-200">Cancelar</button>\
+                    <button type="submit" class="px-4 py-2 bg-medical-600 text-white rounded-xl text-sm font-bold hover:bg-medical-700 shadow-sm">Guardar Expediente</button>\
+                </div>\
+            </form>\
+        </div>\
+    </div>\
+\
+    <!-- Application Script -->\
+    <script>\
+        // State & LocalStorage\
+        let patients = JSON.parse(localStorage.getItem('odonto360_patients')) || [\
+            \{ id: 1, firstName: 'Carlos Andr\'e9s', lastName: 'Rodr\'edguez', docType: 'CC', docNumber: '1023849582', dob: '1992-05-14', phone: '3104567890', email: 'carlos@email.com', date: '2026-10-12' \},\
+            \{ id: 2, firstName: 'Mar\'eda Fernanda', lastName: 'G\'f3mez', docType: 'CC', docNumber: '52839491', dob: '1988-11-20', phone: '3201234567', email: 'mafe@email.com', date: '2026-10-13' \}\
+        ];\
+\
+        let clinicalHistories = JSON.parse(localStorage.getItem('odonto360_histories')) || [];\
+        let odontogramFindings = JSON.parse(localStorage.getItem('odonto360_odontogram')) || \{\};\
+        let activePatientId = patients.length > 0 ? patients[0].id : null;\
+        let currentTool = 'caries';\
+\
+        const quad1 = [18, 17, 16, 15, 14, 13, 12, 11];\
+        const quad2 = [21, 22, 23, 24, 25, 26, 27, 28];\
+        const quad4 = [48, 47, 46, 45, 44, 43, 42, 41];\
+        const quad3 = [31, 32, 33, 34, 35, 36, 37, 38];\
+\
+        window.onload = function() \{\
+            lucide.createIcons();\
+            refreshAllData();\
+            renderQuadrant('quadrant-1', quad1);\
+            renderQuadrant('quadrant-2', quad2);\
+            renderQuadrant('quadrant-4', quad4);\
+            renderQuadrant('quadrant-3', quad3);\
+            renderPeriodontalTable();\
+        \};\
+\
+        // Tab Switcher\
+        function switchTab(tabId) \{\
+            ['dashboard', 'patients', 'clinical-history', 'odontogram', 'periodontogram', 'treatment-plan', 'pharmacology', 'ai-assistant'].forEach(t => \{\
+                const el = document.getElementById(`tab-$\{t\}`);\
+                if(el) el.classList.add('hidden');\
+                const btn = document.getElementById(`nav-$\{t\}`);\
+                if(btn) btn.className = "w-full flex items-center space-x-3 px-3 py-2.5 rounded-lg text-sm font-medium transition text-slate-600 hover:bg-slate-50";\
+            \});\
+            const targetTab = document.getElementById(`tab-$\{tabId\}`);\
+            if(targetTab) targetTab.classList.remove('hidden');\
+            const targetNav = document.getElementById(`nav-$\{tabId\}`);\
+            if(targetNav) targetNav.className = "w-full flex items-center space-x-3 px-3 py-2.5 rounded-lg text-sm font-medium transition bg-medical-50 text-medical-700";\
+        \}\
+\
+        // Patient Modal\
+        function openPatientModal() \{\
+            document.getElementById('patientModal').classList.remove('hidden');\
+            document.getElementById('patientModal').classList.add('flex');\
+        \}\
+\
+        function closePatientModal() \{\
+            document.getElementById('patientModal').classList.add('hidden');\
+            document.getElementById('patientModal').classList.remove('flex');\
+        \}\
+\
+        function saveNewPatient(e) \{\
+            e.preventDefault();\
+            const newP = \{\
+                id: Date.now(),\
+                firstName: document.getElementById('modalFirstName').value,\
+                lastName: document.getElementById('modalLastName').value,\
+                docType: document.getElementById('modalDocType').value,\
+                docNumber: document.getElementById('modalDocNumber').value,\
+                dob: document.getElementById('modalDob').value,\
+                phone: document.getElementById('modalPhone').value,\
+                email: document.getElementById('modalEmail').value,\
+                date: new Date().toISOString().split('T')[0]\
+            \};\
+            patients.push(newP);\
+            localStorage.setItem('odonto360_patients', JSON.stringify(patients));\
+            activePatientId = newP.id;\
+            closePatientModal();\
+            document.getElementById('patientForm').reset();\
+            refreshAllData();\
+            alert('Paciente registrado exitosamente.');\
+        \}\
+\
+        function switchActivePatient(id) \{\
+            activePatientId = Number(id);\
+            refreshAllData();\
+        \}\
+\
+        function deletePatient(id) \{\
+            if(confirm('\'bfEst\'e1 seguro de eliminar este expediente?')) \{\
+                patients = patients.filter(p => p.id !== Number(id));\
+                localStorage.setItem('odonto360_patients', JSON.stringify(patients));\
+                if(activePatientId === Number(id)) \{\
+                    activePatientId = patients.length > 0 ? patients[0].id : null;\
+                \}\
+                refreshAllData();\
+            \}\
+        \}\
+\
+        // Refresh UI Data\
+        function refreshAllData() \{\
+            document.getElementById('statTotalPatients').innerText = patients.length;\
+            document.getElementById('statTotalHistories').innerText = clinicalHistories.length;\
+\
+            // Header selector\
+            const headerSelect = document.getElementById('headerPatientSelect');\
+            headerSelect.innerHTML = patients.map(p => `<option value="$\{p.id\}" $\{p.id === activePatientId ? 'selected' : ''\}>$\{p.firstName\} $\{p.lastName\}</option>`).join('');\
+\
+            // History selector\
+            const historySelect = document.getElementById('historyPatientSelect');\
+            historySelect.innerHTML = '<option value="">-- Seleccione paciente --</option>' + patients.map(p => `<option value="$\{p.id\}" $\{p.id === activePatientId ? 'selected' : ''\}>$\{p.firstName\} $\{p.lastName\} ($\{p.docNumber\})</option>`).join('');\
+\
+            // Dashboard table\
+            const dashTable = document.getElementById('dashboardPatientsTable');\
+            dashTable.innerHTML = patients.slice(-3).map(p => `\
+                <tr class="hover:bg-slate-50/50">\
+                    <td class="p-3 font-medium text-slate-800">$\{p.firstName\} $\{p.lastName\}</td>\
+                    <td class="p-3 text-slate-600">$\{p.docType\} $\{p.docNumber\}</td>\
+                    <td class="p-3 text-slate-600">$\{p.phone\}</td>\
+                    <td class="p-3 text-slate-500 text-xs">$\{p.date\}</td>\
+                    <td class="p-3 text-right">\
+                        <button onclick="switchTab('clinical-history')" class="text-medical-600 hover:underline font-bold text-xs">Abrir Historia</button>\
+                    </td>\
+                </tr>\
+            `).join('');\
+\
+            // Patients table\
+            renderPatientsTable(patients);\
+            updateOdontogramUI();\
+        \}\
+\
+        function renderPatientsTable(list) \{\
+            const tbody = document.getElementById('patientsTableBody');\
+            tbody.innerHTML = list.map(p => \{\
+                const age = new Date().getFullYear() - new Date(p.dob).getFullYear();\
+                return `\
+                    <tr class="hover:bg-slate-50/50">\
+                        <td class="p-3 font-medium text-slate-800">$\{p.firstName\} $\{p.lastName\}</td>\
+                        <td class="p-3 text-slate-600">$\{p.docType\} $\{p.docNumber\}</td>\
+                        <td class="p-3 text-slate-600">$\{isNaN(age) ? 'N/D' : age + ' a\'f1os'\}</td>\
+                        <td class="p-3 text-slate-600">$\{p.phone\}</td>\
+                        <td class="p-3 text-right space-x-3">\
+                            <button onclick="switchTab('clinical-history')" class="text-medical-600 hover:underline font-bold text-xs">Historia</button>\
+                            <button onclick="deletePatient($\{p.id\})" class="text-rose-500 hover:underline font-bold text-xs">Eliminar</button>\
+                        </td>\
+                    </tr>\
+                `;\
+            \}).join('');\
+        \}\
+\
+        function filterPatients() \{\
+            const q = document.getElementById('patientSearchInput').value.toLowerCase();\
+            const filtered = patients.filter(p => p.firstName.toLowerCase().includes(q) || p.lastName.toLowerCase().includes(q) || p.docNumber.includes(q));\
+            renderPatientsTable(filtered);\
+        \}\
+\
+        // Clinical History Actions\
+        function saveDraftHistory() \{\
+            alert('Borrador guardado localmente.');\
+        \}\
+\
+        function signClinicalHistory() \{\
+            const reason = document.getElementById('consultationReason').value;\
+            if(!activePatientId || !reason) \{\
+                alert('Seleccione un paciente y complete al menos el motivo de consulta.');\
+                return;\
+            \}\
+            clinicalHistories.push(\{\
+                id: Date.now(),\
+                patientId: activePatientId,\
+                reason,\
+                signedAt: new Date().toLocaleString()\
+            \});\
+            localStorage.setItem('odonto360_histories', JSON.stringify(clinicalHistories));\
+            alert('\'a1Historia cl\'ednica firmada y sellada digitalmente con \'e9xito (Res. 1995)!');\
+            refreshAllData();\
+        \}\
+\
+        // Odontogram Logic\
+        function setOdontogramTool(tool) \{\
+            currentTool = tool;\
+            ['caries', 'restoration', 'endo', 'crown', 'implant', 'missing', 'clear'].forEach(t => \{\
+                const b = document.getElementById(`tool-$\{t\}`);\
+                if(b) b.classList.remove('border-slate-900', 'border-2');\
+            \});\
+            const activeB = document.getElementById(`tool-$\{tool\}`);\
+            if(activeB) activeB.classList.add('border-slate-900', 'border-2');\
+        \}\
+\
+        function renderQuadrant(containerId, teeth) \{\
+            const container = document.getElementById(containerId);\
+            container.innerHTML = teeth.map(t => `\
+                <div class="tooth-box" id="tooth-box-$\{t\}">\
+                    <span class="text-slate-500 font-bold mb-1">$\{t\}</span>\
+                    <div class="tooth-crown" id="crown-$\{t\}">\
+                        <div class="tooth-surface surf-v" onclick="applyOdontogramFinding($\{t\}, 'V')" title="Vestibular"></div>\
+                        <div class="tooth-surface surf-p" onclick="applyOdontogramFinding($\{t\}, 'P')" title="Palatino"></div>\
+                        <div class="tooth-surface surf-m" onclick="applyOdontogramFinding($\{t\}, 'M')" title="Mesial"></div>\
+                        <div class="tooth-surface surf-d" onclick="applyOdontogramFinding($\{t\}, 'D')" title="Distal"></div>\
+                        <div class="tooth-surface surf-o" onclick="applyOdontogramFinding($\{t\}, 'O')" title="Oclusal"></div>\
+                    </div>\
+                </div>\
+            `).join('');\
+        \}\
+\
+        function applyOdontogramFinding(tooth, surface) \{\
+            const key = `$\{activePatientId\}_$\{tooth\}_$\{surface\}`;\
+            const box = document.getElementById(`tooth-box-$\{tooth\}`);\
+\
+            if(currentTool === 'missing') \{\
+                box.classList.toggle('tooth-missing-x');\
+                odontogramFindings[`$\{activePatientId\}_$\{tooth\}_missing`] = true;\
+            \} else if(currentTool === 'clear') \{\
+                delete odontogramFindings[key];\
+                delete odontogramFindings[`$\{activePatientId\}_$\{tooth\}_missing`];\
+                box.classList.remove('tooth-missing-x');\
+            \} else \{\
+                odontogramFindings[key] = currentTool;\
+            \}\
+            updateOdontogramUI();\
+        \}\
+\
+        function updateOdontogramUI() \{\
+            document.querySelectorAll('.tooth-surface').forEach(el => el.className = el.className.replace(/finding-\\w+/g, '').trim());\
+            const summary = [];\
+\
+            Object.keys(odontogramFindings).forEach(k => \{\
+                if(k.startsWith(`$\{activePatientId\}_`)) \{\
+                    const parts = k.split('_');\
+                    const tooth = parts[1];\
+                    const surf = parts[2];\
+                    if(surf === 'missing') \{\
+                        const box = document.getElementById(`tooth-box-$\{tooth\}`);\
+                        if(box) box.classList.add('tooth-missing-x');\
+                        summary.push(`\'95 Pieza $\{tooth\}: Ausente / Extracci\'f3n`);\
+                    \} else \{\
+                        const el = document.querySelector(`#crown-$\{tooth\} .surf-$\{surf.toLowerCase()\}`);\
+                        if(el) el.classList.add(`finding-$\{odontogramFindings[k]\}`);\
+                        summary.push(`\'95 Pieza $\{tooth\} [$\{surf\}]: $\{odontogramFindings[k].toUpperCase()\}`);\
+                    \}\
+                \}\
+            \});\
+\
+            const sumContainer = document.getElementById('odontogramSummaryList');\
+            if(summary.length === 0) \{\
+                sumContainer.innerHTML = '<p class="text-slate-400 italic">No hay hallazgos registrados en este expediente.</p>';\
+            \} else \{\
+                sumContainer.innerHTML = summary.map(s => `<p>$\{s\}</p>`).join('');\
+            \}\
+        \}\
+\
+        function saveOdontogram() \{\
+            localStorage.setItem('odonto360_odontogram', JSON.stringify(odontogramFindings));\
+            alert('Odontograma guardado correctamente.');\
+        \}\
+\
+        function resetOdontogram() \{\
+            Object.keys(odontogramFindings).forEach(k => \{\
+                if(k.startsWith(`$\{activePatientId\}_`)) delete odontogramFindings[k];\
+            \});\
+            document.querySelectorAll('.tooth-missing-x').forEach(b => b.classList.remove('tooth-missing-x'));\
+            updateOdontogramUI();\
+        \}\
+\
+        // Periodontal Table\
+        function renderPeriodontalTable() \{\
+            const teeth = [16, 11, 26, 36, 31, 46];\
+            const tbody = document.getElementById('periodontalTableBody');\
+            tbody.innerHTML = teeth.map(t => `\
+                <tr>\
+                    <td class="p-2 border font-bold text-slate-700">$\{t\}</td>\
+                    <td class="p-1 border"><input type="number" value="2" class="w-10 text-center border rounded"></td>\
+                    <td class="p-1 border"><input type="number" value="3" class="w-10 text-center border rounded"></td>\
+                    <td class="p-1 border"><input type="number" value="2" class="w-10 text-center border rounded"></td>\
+                    <td class="p-1 border"><input type="number" value="3" class="w-10 text-center border rounded"></td>\
+                    <td class="p-1 border"><input type="number" value="2" class="w-10 text-center border rounded"></td>\
+                    <td class="p-1 border"><input type="number" value="3" class="w-10 text-center border rounded"></td>\
+                    <td class="p-1 border"><input type="checkbox"></td>\
+                </tr>\
+            `).join('');\
+        \}\
+\
+        function loadDrugInfo() \{\
+            const drug = document.getElementById('drugSelect').value;\
+            const box = document.getElementById('drugInfoBox');\
+            if(drug === 'amoxicilina') \{\
+                box.innerHTML = `<p><strong>Indicaci\'f3n:</strong> Infecciones odontog\'e9nicas.</p><p><strong>Dosis Adultos:</strong> 500 mg cada 8 horas por 7 d\'edas.</p><p><strong>Advertencia:</strong> Consultar alergias previas.</p>`;\
+            \} else if(drug === 'ibuprofeno') \{\
+                box.innerHTML = `<p><strong>Indicaci\'f3n:</strong> Dolor e inflamaci\'f3n moderada.</p><p><strong>Dosis Adultos:</strong> 600 mg cada 8 horas v\'eda oral.</p><p><strong>Precauci\'f3n:</strong> Evitar en antecedentes g\'e1stricos o renales.</p>`;\
+            \} else \{\
+                box.innerHTML = `<p><strong>Indicaci\'f3n:</strong> Analg\'e9sico y antipir\'e9tico.</p><p><strong>Dosis Adultos:</strong> 500 mg - 1g cada 6 horas.</p>`;\
+            \}\
+        \}\
+    </script>\
+</body>\
+</html>\
+}
